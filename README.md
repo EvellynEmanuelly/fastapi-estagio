@@ -56,13 +56,16 @@ A API ficará disponível em: **http://127.0.0.1:8000**
 ## **Endpoints da API**  
 
 ### **📌 /companies/**  
-- **POST** ➝ Criar uma nova empresa  
+- **GET** ➝ Buscar por todas as empresas  
+- **POST** ➝ Criar uma nova empresa
 - **GET /{id}** ➝ Buscar empresa por ID  
 - **PUT /{id}** ➝ Atualizar empresa por ID  
-- **DELETE /{id}** ➝ Excluir empresa por ID  
+- **DELETE /{id}** ➝ Excluir empresa por ID
 
-### **📌 /obligations/**  
-- **POST** ➝ Criar uma nova obrigação acessória  
+### **📌 /obrigacoes/**  
+- **GET** ➝ Buscar por todas as obrigações acessórias
+- **POST** ➝ Criar uma nova obrigação acessória
+- **GET /{id}** ➝ Buscar por ID  
 - **PUT /{id}** ➝ Atualizar obrigação acessória  
 - **DELETE /{id}** ➝ Excluir obrigação acessória  
 
